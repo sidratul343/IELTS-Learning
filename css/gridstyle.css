@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.wrap{
+
+	width: 100vw; height:90vh; margin-top: 20px;
+	display: grid;
+	grid-template-rows: 15vh 60vh 15vh ;
+	grid-template-columns: 3.5fr 2fr 0.5fr;
+	grid-gap: 1vw; ;
+
+	
+}
+
+.div1{
+	grid-column: 1/-1;
+}
+
+.div2{background-color: #2ed573;}
+.div3{background-color: #1e90ff;}
+.div4{background-color: #5352ed;}
+
+.div5{background-color: #2f3542;
+ 	grid-column: 1/-1;
+}
